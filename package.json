@@ -1,0 +1,19 @@
+{
+  "name": "legend-ctf",
+  "version": "1.0.0",
+  "description": "A comprehensive Cyber Security learning platform for Capture The Flag (CTF) training.",
+  "main": "src/api/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js"
+  },
+  "keywords": ["ctf", "security", "learning", "cybersecurity"],
+  "author": "jaideeprajdutta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.0",
+    "sqlite3": "^5.1.6"
+  }
+}
